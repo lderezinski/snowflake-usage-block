@@ -458,6 +458,7 @@
     pivots: [warehouse_metering_history.warehouse_name]
     filters:
       warehouse_metering_history.start_date: 1 months
+      warehouse_metering_history.total_credits_used: ">0.1"
     sorts: [warehouse_metering_history.warehouse_name 0, warehouse_metering_history.start_date]
     limit: 500
     total: true
