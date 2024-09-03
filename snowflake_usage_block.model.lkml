@@ -54,6 +54,8 @@ explore: storage_usage {}
 
 explore: warehouse_metering_history {}
 
+explore: last_load {}
+
 # explore: columns {}
 #
 # explore: databases {}
